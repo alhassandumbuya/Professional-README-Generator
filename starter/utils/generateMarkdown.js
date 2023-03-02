@@ -3,12 +3,10 @@ function generateMarkdown(data) {
   return `# ${data.title}
 ${renderBadge(data.license)}
 
-## Description
-
+## getting the Description
 ${data.description}
 
-
-## Table of Contents 
+## Creating table of Contents 
 
 * [Installations](#dependencies)
 
@@ -21,7 +19,7 @@ ${renderLink(data.license)}
 * [Test](#test)
 
 
-## Installations (Dependencies) 
+## getting the installation (Dependencies) 
 
 To install dependencies, run these commands:
 
@@ -30,18 +28,18 @@ ${data.dependencies}
 \`\`\`
 
 
-## Usage 
+## geting usage 
 
 ${data.usage}
 
 ${renderSection(data.license)}
 
 
-## Contributors 
+## getting the contributors 
 
 ${data.contributors}
 
-Contact me at ${data.email}
+Email at ${data.email}
 
 
 ## Tests 
